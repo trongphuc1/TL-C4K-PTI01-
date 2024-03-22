@@ -1,5 +1,3 @@
-
-
 def cong(a, b):
     return a + b
 
@@ -20,3 +18,5 @@ print("Cộng: ", cong(5, 3))
 print("Trừ: ", tru(5, 3))
 print("Nhân: ", nhan(5, 3))
 print("Chia: ", chia(5, 3))
+
+
