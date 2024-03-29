@@ -1,0 +1,4 @@
+pop(i)i thuộc int
+remove(i)i thuộc int,float,string,boolean
+Cú pháp tạo danh sách đói tượng:
+<tên danh sách> = [<đối tượng 1>,...,<đối tượng n>]
