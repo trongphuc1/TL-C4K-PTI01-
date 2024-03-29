@@ -3,7 +3,7 @@ Chức năng:
 Streak từng ngày cứ 10 streak sẽ đc 1 hộp quà có món đồ ngẫu nhiên
 có thể chọn chế độ easy,normal,hard,very hard
 sao mỗi câu sẽ được cộng exp(kinh nghiệm) câu càng khó càng nhiều exp từ 10-20-30-50-100 exp
-Có thể chọn quốc gia có 10 quốc gia như Việt Nam,Nhật bản,Đức,Mỹ,Anh,Trung Quốc,úc,Campuchia,Singapro,Hàn quốc
+Có thể chọn quốc gia có 10 quốc gia như Việt Nam,Nhật bản,Đức,Mỹ,Anh,Trung Quốc,úc,Campuchia,Singapore,Hàn quốc
 cứ đủ lên 10lv sẽ được phần thưởng ngẫu nhiên trong 3 chiếc hộp(chỉ đc chọn 1 trong 3)
 Có thể skip qua nhưng sẽ bị -10 exp hoặc +0 exp
 Có nhân vật kế bên câu hỏi
