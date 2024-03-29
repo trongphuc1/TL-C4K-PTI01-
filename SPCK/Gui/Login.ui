@@ -31,6 +31,9 @@
     <property name="text">
      <string/>
     </property>
+    <property name="placeholderText">
+     <string>Write your gmail or phone number</string>
+    </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
@@ -71,7 +74,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>390</x>
       <y>10</y>
       <width>191</width>
       <height>111</height>
@@ -121,6 +124,9 @@
     <property name="text">
      <string/>
     </property>
+    <property name="placeholderText">
+     <string>Write your password</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
@@ -139,19 +145,22 @@
     <property name="text">
      <string/>
     </property>
+    <property name="placeholderText">
+     <string>Write your name</string>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>550</x>
+      <x>500</x>
       <y>530</y>
-      <width>161</width>
+      <width>211</width>
       <height>71</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <pointsize>20</pointsize>
      </font>
     </property>
     <property name="text">
