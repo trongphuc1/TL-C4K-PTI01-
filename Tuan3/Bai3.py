@@ -40,3 +40,14 @@ Englishlesson.Duyet_phan_tu()
 Englishlesson.update_lesson()
 
 
+class Englishlessonlist:
+    def __init__(self):
+        self.lesson_item_list = list()
+    def get_item_by_title(self, lesson_title) -> Englishlesson:
+        pass
+    def addPnew_item(self, Englishlessonlist):
+        pass
+    def edit_item(self, edit_title, lesson: Englishlesson):
+        pass
+    def delete_item(self, delete_title):
+        pass
