@@ -45,7 +45,7 @@ class Englishlessonlist:
         self.lesson_item_list = list()
     def get_item_by_title(self, lesson_title) -> Englishlesson:
         pass
-    def addPnew_item(self, Englishlessonlist):
+    def addnew_item(self, Englishlessonlist):
         pass
     def edit_item(self, edit_title, lesson: Englishlesson):
         pass
