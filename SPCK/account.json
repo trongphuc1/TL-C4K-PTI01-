@@ -1,0 +1,34 @@
+[
+    {
+        "email": "admin@gmail.com",
+        "password": "admin"
+    },
+    {
+        "email": "phuc@gmail.com",
+        "password": "Phucphuc@1"
+    },
+    {
+        "email": "phuc1@gmail.com",
+        "password": "Phucphuc@12"
+    },
+    {
+        "email": "phuc1@gmail.com",
+        "password": "Phucphuc@12"
+    },
+    {
+        "email": "phuc3@gmail.com",
+        "password": "Phucishere12@"
+    },
+    {
+        "email": "phuc3@gmail.com",
+        "password": "Phucishere12@"
+    },
+    {
+        "email": "phuc3@gmail.com",
+        "password": "Phucishere12@"
+    },
+    {
+        "email": "phuc3@gmail.com",
+        "password": "Phucishere12@"
+    }
+]

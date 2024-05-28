@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QLineEdit" name="txtPassword">
     <property name="geometry">
      <rect>
       <x>240</x>
@@ -38,7 +38,7 @@
      <string>Write your password</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="txtFullName">
     <property name="geometry">
      <rect>
       <x>240</x>
@@ -95,7 +95,7 @@
      <string>Sign up</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btn_register">
     <property name="geometry">
      <rect>
       <x>530</x>
@@ -187,7 +187,7 @@ and do the learn more words !</string>
      <string>Password</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="txtEmail">
     <property name="geometry">
      <rect>
       <x>240</x>
