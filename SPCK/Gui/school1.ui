@@ -289,7 +289,7 @@
      <string>Table</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="bt_next">
     <property name="geometry">
      <rect>
       <x>890</x>
@@ -307,7 +307,7 @@
      <string>Next lesson</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_7">
+   <widget class="QPushButton" name="BacktoU1">
     <property name="geometry">
      <rect>
       <x>890</x>
@@ -323,24 +323,6 @@
     </property>
     <property name="text">
      <string>Back to unit1</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_8">
-    <property name="geometry">
-     <rect>
-      <x>670</x>
-      <y>10</y>
-      <width>201</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>18</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Skip</string>
     </property>
    </widget>
   </widget>
