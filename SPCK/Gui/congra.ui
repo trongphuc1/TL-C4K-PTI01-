@@ -52,7 +52,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="bt_gotoU2">
     <property name="geometry">
      <rect>
       <x>300</x>
@@ -70,7 +70,7 @@
      <string>Go to Unit2</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="BacktoU1_6">
     <property name="geometry">
      <rect>
       <x>300</x>
@@ -90,8 +90,8 @@
    </widget>
    <zorder>label</zorder>
    <zorder>label_2</zorder>
-   <zorder>pushButton</zorder>
-   <zorder>pushButton_2</zorder>
+   <zorder>bt_gotoU2</zorder>
+   <zorder>BacktoU1_6</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

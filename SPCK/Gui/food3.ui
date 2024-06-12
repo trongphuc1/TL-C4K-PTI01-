@@ -123,7 +123,7 @@
      <string>Fish</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="bt_soup">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -160,7 +160,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btn_fish">
     <property name="geometry">
      <rect>
       <x>200</x>
@@ -197,7 +197,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="btn_rice">
     <property name="geometry">
      <rect>
       <x>200</x>

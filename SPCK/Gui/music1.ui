@@ -51,7 +51,7 @@
      <string>Rock music</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btn_rock">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -69,7 +69,7 @@
      <string>Click to hear</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="btn_classic">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -161,7 +161,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="btn_pop">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -197,7 +197,7 @@
      <string>Eletronic music</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="btn_eletronic">
     <property name="geometry">
      <rect>
       <x>280</x>

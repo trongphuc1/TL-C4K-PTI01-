@@ -52,17 +52,17 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="bt_app">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>20</x>
       <y>100</y>
       <width>93</width>
       <height>28</height>
      </rect>
     </property>
     <property name="text">
-     <string>English book</string>
+     <string>English for kid</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -84,7 +84,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="bt_Visual">
     <property name="geometry">
      <rect>
       <x>140</x>
@@ -95,24 +95,6 @@
     </property>
     <property name="text">
      <string>Google chorm</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>630</x>
-      <y>510</y>
-      <width>161</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>16</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Battery: 70%</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_5">
@@ -134,7 +116,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="bt_google">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -166,7 +148,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="bt_word">
     <property name="geometry">
      <rect>
       <x>420</x>

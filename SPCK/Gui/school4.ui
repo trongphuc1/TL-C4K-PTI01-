@@ -14,31 +14,13 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLineEdit" name="lineEdit">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>330</y>
-      <width>311</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>950</x>
-      <y>410</y>
-      <width>121</width>
-      <height>241</height>
+      <x>850</x>
+      <y>510</y>
+      <width>81</width>
+      <height>151</height>
      </rect>
     </property>
     <property name="text">
@@ -54,9 +36,9 @@
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>120</x>
+      <x>30</x>
       <y>260</y>
-      <width>91</width>
+      <width>261</width>
       <height>71</height>
      </rect>
     </property>
@@ -66,7 +48,7 @@
      </font>
     </property>
     <property name="text">
-     <string>harci</string>
+     <string>Is this a chair?</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_7">
@@ -91,9 +73,9 @@
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>380</x>
       <y>260</y>
-      <width>111</width>
+      <width>331</width>
       <height>71</height>
      </rect>
     </property>
@@ -103,7 +85,7 @@
      </font>
     </property>
     <property name="text">
-     <string>scoolh</string>
+     <string>What is this place?</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_10">
@@ -123,42 +105,6 @@
     </property>
     <property name="scaledContents">
      <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>330</y>
-      <width>311</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
-    <property name="geometry">
-     <rect>
-      <x>760</x>
-      <y>330</y>
-      <width>311</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string/>
     </property>
    </widget>
    <widget class="QLabel" name="label_11">
@@ -183,9 +129,9 @@
    <widget class="QLabel" name="label_12">
     <property name="geometry">
      <rect>
-      <x>870</x>
+      <x>810</x>
       <y>260</y>
-      <width>91</width>
+      <width>241</width>
       <height>71</height>
      </rect>
     </property>
@@ -195,29 +141,10 @@
      </font>
     </property>
     <property name="text">
-     <string>abg</string>
+     <string>Is this a bag?</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>610</x>
-      <y>420</y>
-      <width>331</width>
-      <height>81</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>These words get scramble
- you need to fix it</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="bt_next4">
     <property name="geometry">
      <rect>
       <x>400</x>
@@ -235,7 +162,7 @@
      <string>Next lesson</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="BacktoU1_4">
     <property name="geometry">
      <rect>
       <x>580</x>
@@ -251,6 +178,114 @@
     </property>
     <property name="text">
      <string>Back to unit1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="check1">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>330</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Yes</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="check2">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>400</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Home</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="check3">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>400</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>No</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="check1_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>400</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>No</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="check2_2">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>330</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>School</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="check3_2">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>330</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Yes</string>
     </property>
    </widget>
   </widget>

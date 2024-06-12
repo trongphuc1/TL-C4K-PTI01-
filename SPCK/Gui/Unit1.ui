@@ -163,19 +163,19 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>0</y>
+      <y>30</y>
       <width>151</width>
-      <height>751</height>
+      <height>731</height>
      </rect>
     </property>
     <property name="title">
      <string/>
     </property>
-    <widget class="QPushButton" name="pushButton">
+    <widget class="QPushButton" name="bt_quit">
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>20</y>
+       <y>100</y>
        <width>121</width>
        <height>71</height>
       </rect>
@@ -187,24 +187,6 @@
      </property>
      <property name="text">
       <string>Quit</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButton_3">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>100</y>
-       <width>121</width>
-       <height>71</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>20</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Shop</string>
      </property>
     </widget>
     <widget class="QPushButton" name="btn_logout">
@@ -225,7 +207,7 @@
       <string>Logout</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_10">
+    <widget class="QPushButton" name="bt_U1">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -243,7 +225,7 @@
       <string>Unit 1:School</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_11">
+    <widget class="QPushButton" name="bt_U2">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -261,7 +243,7 @@
       <string>Unit 2:Music</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_12">
+    <widget class="QPushButton" name="bt_U3">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -279,7 +261,7 @@
       <string>Unit 3:Home</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_13">
+    <widget class="QPushButton" name="bt_U4">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -297,7 +279,7 @@
       <string>Unit 4:Food</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_14">
+    <widget class="QPushButton" name="bt_finaltest">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -315,7 +297,7 @@
       <string>Final test</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_15">
+    <widget class="QPushButton" name="bt_midtest">
      <property name="geometry">
       <rect>
        <x>20</x>

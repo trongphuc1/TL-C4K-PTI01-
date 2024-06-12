@@ -33,7 +33,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btn_pencil">
     <property name="geometry">
      <rect>
       <x>340</x>
@@ -69,7 +69,7 @@
      <string>Pencil</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="btn_book">
     <property name="geometry">
      <rect>
       <x>340</x>
@@ -142,7 +142,7 @@
      <string>Bag</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="btn_bag">
     <property name="geometry">
      <rect>
       <x>340</x>
@@ -179,7 +179,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="btn_chair">
     <property name="geometry">
      <rect>
       <x>900</x>
@@ -234,7 +234,7 @@
      <string>Chair</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="btn_table">
     <property name="geometry">
      <rect>
       <x>900</x>

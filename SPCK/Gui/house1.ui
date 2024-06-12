@@ -90,7 +90,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btn_modern">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -108,7 +108,7 @@
      <string>Click to hear</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="btn_country">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -126,7 +126,7 @@
      <string>Click to hear</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="btn_city">
     <property name="geometry">
      <rect>
       <x>840</x>
@@ -144,7 +144,7 @@
      <string>Click to hear</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="btn_fishing">
     <property name="geometry">
      <rect>
       <x>840</x>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1007</width>
-    <height>844</height>
+    <width>1224</width>
+    <height>751</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -32,7 +32,7 @@
      <string>Teacher</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btn_teacher">
     <property name="geometry">
      <rect>
       <x>340</x>
@@ -47,7 +47,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Click to hear</string>
+     <string>check</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -69,7 +69,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="btn_line">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -148,7 +148,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="btn_school">
     <property name="geometry">
      <rect>
       <x>340</x>
@@ -163,14 +163,14 @@
      </font>
     </property>
     <property name="text">
-     <string>Click to hear</string>
+     <string>check</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="bt_next2">
     <property name="geometry">
      <rect>
-      <x>460</x>
-      <y>720</y>
+      <x>1030</x>
+      <y>110</y>
       <width>161</width>
       <height>61</height>
      </rect>
@@ -184,11 +184,11 @@
      <string>Next lesson</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="BacktoU1_2">
     <property name="geometry">
      <rect>
-      <x>640</x>
-      <y>720</y>
+      <x>1030</x>
+      <y>40</y>
       <width>161</width>
       <height>61</height>
      </rect>
@@ -260,7 +260,7 @@
      <string>Write again the  word &quot;Bag&quot;</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="btn__bag">
     <property name="geometry">
      <rect>
       <x>830</x>
@@ -275,10 +275,10 @@
      </font>
     </property>
     <property name="text">
-     <string>Click to hear</string>
+     <string>check</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_7">
+   <widget class="QPushButton" name="btn_table">
     <property name="geometry">
      <rect>
       <x>830</x>
@@ -293,7 +293,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Click to hear</string>
+     <string>check</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_7">
@@ -360,7 +360,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1007</width>
+     <width>1224</width>
      <height>26</height>
     </rect>
    </property>
