@@ -154,7 +154,7 @@ and choose the correct word in the box</string>
      <string>Part 2: listen to the record and write the missing word</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="submit">
     <property name="geometry">
      <rect>
       <x>500</x>
@@ -627,7 +627,7 @@ and choose the correct word in the box</string>
      <string>Play sound</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="back">
     <property name="geometry">
      <rect>
       <x>720</x>

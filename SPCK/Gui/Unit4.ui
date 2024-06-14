@@ -7,18 +7,21 @@
     <x>0</x>
     <y>0</y>
     <width>843</width>
-    <height>810</height>
+    <height>717</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(255, 170, 0)</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
       <x>550</x>
-      <y>200</y>
+      <y>110</y>
       <width>281</width>
       <height>241</height>
      </rect>
@@ -37,7 +40,7 @@
     <property name="geometry">
      <rect>
       <x>310</x>
-      <y>520</y>
+      <y>430</y>
       <width>221</width>
       <height>91</height>
      </rect>
@@ -55,7 +58,7 @@
     <property name="geometry">
      <rect>
       <x>550</x>
-      <y>140</y>
+      <y>50</y>
       <width>291</width>
       <height>41</height>
      </rect>
@@ -70,11 +73,11 @@
  how about you? what food do you like?</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="les3">
     <property name="geometry">
      <rect>
       <x>370</x>
-      <y>200</y>
+      <y>170</y>
       <width>81</width>
       <height>81</height>
      </rect>
@@ -83,52 +86,22 @@
      <font>
       <pointsize>14</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: red;</string>
     </property>
     <property name="text">
      <string>3</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_8">
-    <property name="geometry">
-     <rect>
-      <x>370</x>
-      <y>10</y>
-      <width>81</width>
-      <height>81</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>5</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_4">
-    <property name="geometry">
-     <rect>
-      <x>370</x>
-      <y>430</y>
-      <width>81</width>
-      <height>81</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>14</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>1</string>
     </property>
    </widget>
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>0</y>
+      <y>-90</y>
       <width>151</width>
       <height>751</height>
      </rect>
@@ -136,7 +109,7 @@
     <property name="title">
      <string/>
     </property>
-    <widget class="QPushButton" name="pushButton_5">
+    <widget class="QPushButton" name="Quit">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -150,11 +123,17 @@
        <pointsize>18</pointsize>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: violet;</string>
+     </property>
      <property name="text">
       <string>Quit</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_16">
+    <widget class="QPushButton" name="Logout">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -168,11 +147,17 @@
        <pointsize>20</pointsize>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: violet;</string>
+     </property>
      <property name="text">
       <string>Logout</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_17">
+    <widget class="QPushButton" name="U1">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -186,11 +171,17 @@
        <pointsize>11</pointsize>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(85, 255, 255);</string>
+     </property>
      <property name="text">
       <string>Unit 1:School</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_18">
+    <widget class="QPushButton" name="U2">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -204,11 +195,17 @@
        <pointsize>12</pointsize>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(0, 255, 255);</string>
+     </property>
      <property name="text">
       <string>Unit 2:Music</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_19">
+    <widget class="QPushButton" name="U3">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -221,6 +218,13 @@
       <font>
        <pointsize>12</pointsize>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: pink;
+;</string>
      </property>
      <property name="text">
       <string>Unit 3:Home</string>
@@ -240,11 +244,17 @@
        <pointsize>12</pointsize>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: blue;</string>
+     </property>
      <property name="text">
       <string>Unit 4:Food</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_21">
+    <widget class="QPushButton" name="finaltest">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -258,11 +268,17 @@
        <pointsize>16</pointsize>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: blue;</string>
+     </property>
      <property name="text">
       <string>Final test</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_22">
+    <widget class="QPushButton" name="midtest">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -276,6 +292,12 @@
        <pointsize>12</pointsize>
       </font>
      </property>
+     <property name="styleSheet">
+      <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: pink;</string>
+     </property>
      <property name="text">
       <string>Midterm test</string>
      </property>
@@ -285,7 +307,7 @@
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>600</y>
+      <y>510</y>
       <width>261</width>
       <height>91</height>
      </rect>
@@ -299,11 +321,11 @@
      <string>Unit 4:Food</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_23">
+   <widget class="QPushButton" name="les2">
     <property name="geometry">
      <rect>
       <x>420</x>
-      <y>100</y>
+      <y>260</y>
       <width>81</width>
       <height>81</height>
      </rect>
@@ -313,26 +335,38 @@
       <pointsize>14</pointsize>
      </font>
     </property>
-    <property name="text">
-     <string>4</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_24">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>310</y>
-      <width>81</width>
-      <height>81</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>14</pointsize>
-     </font>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: violet;</string>
     </property>
     <property name="text">
      <string>2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="les1">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>360</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:lightblue;</string>
+    </property>
+    <property name="text">
+     <string>1</string>
     </property>
    </widget>
   </widget>

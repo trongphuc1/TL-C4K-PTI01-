@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">
+    background-color: white;</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLineEdit" name="txtEmail">
     <property name="geometry">
@@ -27,6 +31,12 @@
      <font>
       <pointsize>14</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: violet;</string>
     </property>
     <property name="text">
      <string/>
@@ -103,6 +113,12 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: violet;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -126,6 +142,12 @@
      <font>
       <pointsize>20</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: pink;</string>
     </property>
     <property name="text">
      <string>Login</string>
@@ -182,6 +204,12 @@
       <pointsize>20</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: pink;</string>
+    </property>
     <property name="text">
      <string>Register</string>
     </property>
@@ -199,6 +227,12 @@
      <font>
       <pointsize>20</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: pink;</string>
     </property>
     <property name="text">
      <string>Be guest</string>

@@ -13,8 +13,12 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">
+    background-color:lightgreen;</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="classical1">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -27,6 +31,12 @@
      <font>
       <pointsize>14</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:pink;</string>
     </property>
     <property name="text">
      <string>Classical</string>
@@ -50,7 +60,7 @@
      <string>Calsiscla</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_7">
+   <widget class="QPushButton" name="pop1">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -64,11 +74,17 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:pink;</string>
+    </property>
     <property name="text">
      <string>Pop</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_8">
+   <widget class="QPushButton" name="rock1">
     <property name="geometry">
      <rect>
       <x>360</x>
@@ -82,11 +98,17 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:pink;</string>
+    </property>
     <property name="text">
      <string>Rock</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_9">
+   <widget class="QPushButton" name="classical2">
     <property name="geometry">
      <rect>
       <x>-10</x>
@@ -100,11 +122,17 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:pink;</string>
+    </property>
     <property name="text">
      <string>Classical</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_10">
+   <widget class="QPushButton" name="rock2">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -117,6 +145,12 @@
      <font>
       <pointsize>14</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:pink;</string>
     </property>
     <property name="text">
      <string>Rock</string>
@@ -140,7 +174,7 @@
      <string>korc</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_11">
+   <widget class="QPushButton" name="pop2">
     <property name="geometry">
      <rect>
       <x>170</x>
@@ -154,11 +188,17 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:pink;</string>
+    </property>
     <property name="text">
      <string>Pop</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_12">
+   <widget class="QPushButton" name="rock3">
     <property name="geometry">
      <rect>
       <x>360</x>
@@ -171,6 +211,12 @@
      <font>
       <pointsize>14</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:violet;</string>
     </property>
     <property name="text">
      <string>Rock</string>
@@ -194,7 +240,7 @@
      <string>opp</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_13">
+   <widget class="QPushButton" name="pop3">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -207,12 +253,18 @@
      <font>
       <pointsize>14</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:violet;</string>
     </property>
     <property name="text">
      <string>Pop</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_14">
+   <widget class="QPushButton" name="classical3">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -226,11 +278,17 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:violet;</string>
+    </property>
     <property name="text">
      <string>Classical</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_20">
+   <widget class="QPushButton" name="Back_U2">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -244,11 +302,17 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:orange;</string>
+    </property>
     <property name="text">
-     <string>Back to unit1</string>
+     <string>Back to unit2</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_18">
+   <widget class="QPushButton" name="bt_NL">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -261,6 +325,12 @@
      <font>
       <pointsize>14</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:orange;</string>
     </property>
     <property name="text">
      <string>Next lesson</string>

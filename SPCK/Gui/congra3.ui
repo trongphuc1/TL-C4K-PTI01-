@@ -89,7 +89,7 @@
      <string>Congratulations on completing all the units!!!</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="go_back">
     <property name="geometry">
      <rect>
       <x>290</x>

@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">
+    background-color: rgb(0, 255, 255);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label_2">
     <property name="geometry">
@@ -158,6 +162,12 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: pink;</string>
+    </property>
     <property name="text">
      <string>Next lesson</string>
     </property>
@@ -175,6 +185,12 @@
      <font>
       <pointsize>14</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: pink;</string>
     </property>
     <property name="text">
      <string>Back to unit1</string>
@@ -194,6 +210,12 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: violet;</string>
+    </property>
     <property name="text">
      <string>Yes</string>
     </property>
@@ -211,6 +233,12 @@
      <font>
       <pointsize>14</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: violet;</string>
     </property>
     <property name="text">
      <string>Home</string>
@@ -230,6 +258,12 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: violet;</string>
+    </property>
     <property name="text">
      <string>No</string>
     </property>
@@ -247,6 +281,12 @@
      <font>
       <pointsize>14</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: violet;</string>
     </property>
     <property name="text">
      <string>No</string>
@@ -266,6 +306,12 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: violet;</string>
+    </property>
     <property name="text">
      <string>School</string>
     </property>
@@ -283,6 +329,12 @@
      <font>
       <pointsize>14</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: violet;</string>
     </property>
     <property name="text">
      <string>Yes</string>

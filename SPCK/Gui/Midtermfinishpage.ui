@@ -51,11 +51,11 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="back">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>480</y>
+      <x>300</x>
+      <y>470</y>
       <width>171</width>
       <height>61</height>
      </rect>
@@ -66,33 +66,15 @@
      </font>
     </property>
     <property name="text">
-     <string>Go to Unit 3</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_2">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>480</y>
-      <width>171</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>16</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>Back to Unit 1</string>
+     <string>Back</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>240</x>
       <y>400</y>
-      <width>621</width>
+      <width>291</width>
       <height>61</height>
      </rect>
     </property>
@@ -102,7 +84,7 @@
      </font>
     </property>
     <property name="text">
-     <string>You have completed the test now you can go to Unit 3</string>
+     <string>You have completed the test</string>
     </property>
    </widget>
   </widget>

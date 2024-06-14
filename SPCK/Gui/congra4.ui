@@ -33,11 +33,11 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="bt_gotoU3">
+   <widget class="QPushButton" name="bt_gotoU4">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>400</y>
+      <x>280</x>
+      <y>390</y>
       <width>221</width>
       <height>61</height>
      </rect>
@@ -48,14 +48,14 @@
      </font>
     </property>
     <property name="text">
-     <string>Go to Unit3</string>
+     <string>Go to Unit4</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="bt_backU2">
+   <widget class="QPushButton" name="BacktoU3">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>470</y>
+      <x>280</x>
+      <y>460</y>
       <width>221</width>
       <height>61</height>
      </rect>
@@ -66,14 +66,14 @@
      </font>
     </property>
     <property name="text">
-     <string>Back to Unit2</string>
+     <string>Back to Unit3</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>620</x>
-      <y>260</y>
+      <x>610</x>
+      <y>250</y>
       <width>161</width>
       <height>271</height>
      </rect>
@@ -82,7 +82,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../PTI picture SPCK/Girl.png</pixmap>
+     <pixmap>../PTI picture SPCK/Girl2.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>

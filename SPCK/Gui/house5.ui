@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">
+    background-color:lightyellow;</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label_4">
     <property name="geometry">
@@ -32,7 +36,7 @@
      <string>M__ern house</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_7">
+   <widget class="QPushButton" name="wrong">
     <property name="geometry">
      <rect>
       <x>190</x>
@@ -46,11 +50,17 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:violet;</string>
+    </property>
     <property name="text">
      <string>City house</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_8">
+   <widget class="QPushButton" name="wrong2">
     <property name="geometry">
      <rect>
       <x>370</x>
@@ -63,12 +73,18 @@
      <font>
       <pointsize>14</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:violet;</string>
     </property>
     <property name="text">
      <string>fishing house</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="correct">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -82,11 +98,17 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:violet;</string>
+    </property>
     <property name="text">
      <string>Modern house</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_9">
+   <widget class="QPushButton" name="wrong4">
     <property name="geometry">
      <rect>
       <x>370</x>
@@ -100,11 +122,17 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:violet;</string>
+    </property>
     <property name="text">
      <string>City house</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_10">
+   <widget class="QPushButton" name="wrong3">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -117,6 +145,12 @@
      <font>
       <pointsize>14</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:violet;</string>
     </property>
     <property name="text">
      <string>Modern house</string>
@@ -140,7 +174,7 @@
      <string>C___try_ide house</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_11">
+   <widget class="QPushButton" name="correct2">
     <property name="geometry">
      <rect>
       <x>190</x>
@@ -154,14 +188,20 @@
       <pointsize>11</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:violet;</string>
+    </property>
     <property name="text">
      <string>Countryside house</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_12">
+   <widget class="QPushButton" name="wrong6">
     <property name="geometry">
      <rect>
-      <x>390</x>
+      <x>370</x>
       <y>460</y>
       <width>161</width>
       <height>61</height>
@@ -172,14 +212,20 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:violet;</string>
+    </property>
     <property name="text">
      <string>fishing house</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_13">
+   <widget class="QPushButton" name="wrong5">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>190</x>
       <y>460</y>
       <width>161</width>
       <height>61</height>
@@ -189,6 +235,12 @@
      <font>
       <pointsize>11</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:violet;</string>
     </property>
     <property name="text">
      <string>Countryside house</string>
@@ -212,10 +264,10 @@
      <string>City house</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_14">
+   <widget class="QPushButton" name="correct3">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>10</x>
       <y>460</y>
       <width>161</width>
       <height>61</height>
@@ -226,11 +278,17 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:violet;</string>
+    </property>
     <property name="text">
      <string>City house</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_15">
+   <widget class="QPushButton" name="bt_nextlesson">
     <property name="geometry">
      <rect>
       <x>620</x>
@@ -244,11 +302,17 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+</string>
+    </property>
     <property name="text">
      <string>Next lesson</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="bt_backtoU3">
     <property name="geometry">
      <rect>
       <x>620</x>
@@ -262,8 +326,14 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+</string>
+    </property>
     <property name="text">
-     <string>Back to unit2</string>
+     <string>Back to unit3</string>
     </property>
    </widget>
   </widget>

@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">
+    background-color:violet;</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label_3">
     <property name="geometry">
@@ -52,7 +56,7 @@ which picture is house?</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="house">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -75,7 +79,7 @@ which picture is house?</string>
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="table">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -98,7 +102,7 @@ which picture is house?</string>
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="school">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -121,7 +125,7 @@ which picture is house?</string>
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_7">
+   <widget class="QPushButton" name="bt_next">
     <property name="geometry">
      <rect>
       <x>360</x>
@@ -135,11 +139,17 @@ which picture is house?</string>
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:pink;</string>
+    </property>
     <property name="text">
      <string>Next lesson</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="bt_backU3">
     <property name="geometry">
      <rect>
       <x>530</x>
@@ -152,6 +162,12 @@ which picture is house?</string>
      <font>
       <pointsize>14</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    border-radius: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color:pink;</string>
     </property>
     <property name="text">
      <string>Back to unit3</string>
