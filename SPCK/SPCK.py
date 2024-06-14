@@ -849,7 +849,7 @@ if __name__ == '__main__':
     Congraplace3 = Congraplace3()
     Congraplace4 = Congraplace4()
     ComputerPage = ComputerPage()
-    ComputerPage.show()
+    LoginPage.show()
     # Setting = SettingPage()
     MainPage = MainPage()
     sys.exit(app.exec())
